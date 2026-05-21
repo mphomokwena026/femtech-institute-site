@@ -1,0 +1,36 @@
+/* Custom formatting tweaks */
+.label-badge {
+  margin-bottom: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(212, 165, 165, 0.3);
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: #3E2723;
+}
+
+.service-card {
+  border-radius: 1.75rem;
+  border: 1px solid rgba(62, 39, 35, 0.08);
+  background-color: #ffffff;
+  padding: 1.75rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
+.service-card:hover {
+  transform: translateY(-4px);
+}
+
+.price-card {
+  position: relative;
+  border-radius: 1.75rem;
+  border: 1px solid rgba(62, 39, 35, 0.08);
+  padding: 1.75rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
