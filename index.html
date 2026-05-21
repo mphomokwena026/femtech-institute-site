@@ -1,328 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HF4TW44VTY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  <title>FemTech Institute | Websites, Systems & Compliance</title>
-  <meta name="description" content="FemTech Institute helps South African entrepreneurs and small businesses with websites, digital systems, CIPC, SARS and CSD support." />
-
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <link rel="stylesheet" href="styles.css" />
+  gtag('config', 'G-HF4TW44VTY');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FemTech Institute | Premium Websites & Compliance</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body class="min-h-screen bg-[#FEFBF7] text-[#3E2723] antialiased scroll-smooth">
 
-  <!-- MOBILE-FIRST NAVBAR -->
-  <header class="fixed left-0 right-0 top-0 z-50 border-b border-[#3E2723]/5 bg-[#FEFBF7]/95 backdrop-blur-xl">
-    <nav class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
+    <header class="fixed left-0 right-0 top-0 z-50 border-b border-[#3E2723]/5 bg-[#FEFBF7]/85 backdrop-blur-xl">
+        <nav class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
+            <a href="#home" class="flex items-center gap-3">
+            <img src="https://getshared.com/dashboard/api/files/1361b70c-5470-11f1-8264-ac1f6b763f30/stream?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjQ5NDY4LCJlbWFpbCI6IjIwMTkyNzAyNjlAdWZzNGxpZmUuYWMuemEiLCJpYXQiOjE3NzkyOTc1MjksImV4cCI6MTc4MTg4OTUyOX0.1pXOHTDV6d-ttPOW9BsLBZpVx_6DOfL_rbp9h17hW7U&t=1779316791437" class="h-10 w-10 rounded-2xl object-cover">
+                
+                    <p class="text-sm font-black leading-none tracking-tight">FemTech Institute</p>
+                    
+                </div>
+            </a>
+            <div class="hidden items-center gap-8 md:flex">
+                <a href="#about" class="text-sm font-medium text-[#3E2723]/70 transition hover:text-[#3E2723]">About</a>
+                <a href="#services" class="text-sm font-medium text-[#3E2723]/70 transition hover:text-[#3E2723]">Services</a>
+                <a href="#process" class="text-sm font-medium text-[#3E2723]/70 transition hover:text-[#3E2723]">Process</a>
+                <a href="#pricing" class="text-sm font-medium text-[#3E2723]/70 transition hover:text-[#3E2723]">Pricing</a>
+                <a href="#contact" class="text-sm font-medium text-[#3E2723]/70 transition hover:text-[#3E2723]">Contact</a>
+                <a href="#contact" class="rounded-full bg-[#D4A5A5] px-5 py-2.5 text-sm font-bold text-[#3E2723] transition hover:-translate-y-0.5 hover:shadow-lg shadow-[#D4A5A5]/25">Get Started</a>
+            </div>
+        </nav>
+    </header>
 
-      <a href="#home" class="flex min-w-0 items-center gap-3">
-        <img 
-          src="https://getshared.com/dashboard/api/files/1361b70c-5470-11f1-8264-ac1f6b763f30/stream?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjQ5NDY4LCJlbWFpbCI6IjIwMTkyNzAyNjlAdWZzNGxpZmUuYWMuemEiLCJpYXQiOjE3NzkyOTc1MjksImV4cCI6MTc4MTg4OTUyOX0.1pXOHTDV6d-ttPOW9BsLBZpVx_6DOfL_rbp9h17hW7U&t=1779316791437" 
-          class="h-11 w-11 shrink-0 rounded-2xl object-cover" 
-          alt="FemTech Institute logo"
-        />
-
-        <p class="truncate text-sm font-black leading-none tracking-tight sm:text-base">
-          FemTech Institute
-        </p>
-      </a>
-
-      <a 
-        href="https://wa.me/27818577428?text=Hi%20FemTech%20Institute%2C%20I%20would%20like%20to%20get%20started%20with%20your%20digital%20services."
-        target="_blank"
-        rel="noopener noreferrer"
-        class="shrink-0 rounded-full bg-[#D4A5A5] px-4 py-2 text-xs font-bold text-[#3E2723] transition hover:-translate-y-0.5 hover:shadow-lg sm:px-5 sm:py-2.5 sm:text-sm"
-      >
-        WhatsApp
-      </a>
-    </nav>
-
-    <!-- Mobile visible navigation row -->
-    <div class="flex gap-5 overflow-x-auto border-t border-[#3E2723]/5 px-5 py-3 text-sm font-bold text-[#3E2723]/75 md:justify-center">
-      <a href="#about" class="shrink-0">About</a>
-      <a href="#services" class="shrink-0">Services</a>
-      <a href="#pricing" class="shrink-0">Pricing</a>
-      <a href="#contact" class="shrink-0">Contact</a>
-    </div>
-  </header>
-
-  <!-- HERO SECTION -->
-  <section id="home" class="relative overflow-hidden px-5 pb-16 pt-40 sm:pt-44 lg:px-8 lg:pb-28 lg:pt-40">
-
-    <div class="absolute left-[-8rem] top-20 h-72 w-72 rounded-full bg-[#D4A5A5]/20 blur-3xl"></div>
-    <div class="absolute bottom-10 right-[-6rem] h-80 w-80 rounded-full bg-[#F1E5AC]/20 blur-3xl"></div>
-
-    <div class="mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:gap-16">
-
-      <!-- HERO IMAGE LEFT -->
-      <div class="relative z-10">
-        <img 
-          src="https://getshared.com/dashboard/api/files/a1bf6271-54fc-11f1-8264-ac1f6b763f30/stream?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjQ5NDY4LCJlbWFpbCI6IjIwMTkyNzAyNjlAdWZzNGxpZmUuYWMuemEiLCJpYXQiOjE3NzkyOTc1MjksImV4cCI6MTc4MTg4OTUyOX0.1pXOHTDV6d-ttPOW9BsLBZpVx_6DOfL_rbp9h17hW7U&t=1779357958770"
-          class="h-[340px] w-full rounded-[1.5rem] object-cover shadow-2xl shadow-[#3E2723]/10 sm:h-[420px] md:h-[520px] lg:h-[650px] lg:rounded-[2rem]"
-          alt="Modern business owner working on a laptop"
-        />
-      </div>
-
-      <!-- HERO TEXT RIGHT -->
-      <div class="relative z-10">
-
-        <div class="mb-5 inline-flex max-w-full items-center gap-2 rounded-full border border-[#3E2723]/10 bg-white/70 px-4 py-2 text-sm font-semibold leading-6 shadow-sm backdrop-blur">
-          Built for modern South African businesses.
+    <section id="home" class="relative overflow-hidden px-5 pb-20 pt-32 lg:px-8 lg:pb-28 lg:pt-40">
+        <div class="absolute left-[-8rem] top-20 h-72 w-72 rounded-full bg-[#D4A5A5]/20 blur-3xl"></div>
+        <div class="absolute bottom-10 right-[-6rem] h-80 w-80 rounded-full bg-[#F1E5AC]/20 blur-3xl"></div>
+        <div class="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[1.05fr_0.95fr]">
+            <div class="relative z-10">
+                <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-[#3E2723]/10 bg-white/70 px-4 py-2 text-sm font-semibold shadow-sm backdrop-blur">
+                    Built for modern South African businesses.
+                </div>
+                <h1 class="max-w-4xl text-5xl font-black leading-[0.96] tracking-[-0.055em] text-[#3E2723] md:text-7xl lg:text-8xl">
+                    Are you ready to scale your business?
+                </h1>
+                <p class="mt-7 max-w-2xl text-lg leading-8 text-[#3E2723]/72 md:text-xl">
+                    FemTech Institute aids South African entrepreneurs, startups, freelancers, and small businesses build professional websites, structure digital systems, and handle key business compliance essentials with clarity.
+                </p>
+                <div class="mt-9 flex flex-col gap-4 sm:flex-row">
+                    <a href="#contact" class="inline-flex items-center justify-center gap-2 rounded-full bg-[#3E2723] px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-1 hover:shadow-xl shadow-[#3E2723]/20">Get Started ➔</a>
+                    <a href="#contact" class="inline-flex items-center justify-center gap-2 rounded-full border border-[#3E2723]/15 bg-white/70 px-6 py-3 text-sm font-semibold text-[#3E2723] transition hover:-translate-y-1 hover:bg-white hover:shadow-lg">Book a Consultation</a>
+                </div>
+            </div>
+            <div class="relative z-10">
+                <div class="rounded-[2rem] border border-white/70 bg-white/55 p-4 shadow-2xl shadow-[#3E2723]/10 backdrop-blur-xl">
+                    <div class="rounded-[1.5rem] bg-[#3E2723] p-5 text-white">
+                        <div class="mb-5 flex items-center justify-between">
+                          <div>
+                            <p class="text-xs uppercase tracking-[0.25em] text-white/45">Before Femtech</p>
+                            <h2 class="mt-1 text-2xl font-black leading-tight">
+                            No website<br>
+                            No systems<br>
+                            No structure
+                          </h2>
+                          </div>
+                          <div class="rounded-full bg-[#F1E5AC] px-3 py-1 text-xs font-bold text-[#3E2723]">No direction</div>
+                        </div>
+                        <div class="grid gap-4 md:grid-cols-2">
+                          <div class="rounded-3xl bg-white/10 p-5">
+                            <p class="text-sm text-white/50">AFTER FEMTECH</p>
+                            <p class="mt-2 text-4xl font-black">Professional brand</p>
+                          </div>
+                          <div class="rounded-3xl bg-[#D4A5A5] p-5 text-[#3E2723]">
+                            <p class="text-sm opacity-70">Digital systems</p>
+                            <p class="mt-2 text-4xl font-black">Business credibility</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <h1 class="max-w-4xl text-4xl font-black leading-[1] tracking-[-0.04em] text-[#3E2723] sm:text-5xl md:text-7xl lg:text-8xl lg:leading-[0.96]">
-          Are you ready to scale your business?
-        </h1>
-
-        <p class="mt-6 max-w-2xl text-base leading-7 text-[#3E2723]/72 sm:text-lg md:text-xl md:leading-8">
-          FemTech Institute helps South African entrepreneurs, startups, freelancers, and small businesses build professional websites, structure digital systems, and handle key business compliance essentials with clarity.
-        </p>
-
-        <div class="mt-8 flex flex-col gap-3 sm:flex-row">
-          <a href="https://wa.me/27818577428?text=Hi%20FemTech%20Institute%2C%20I%20would%20like%20to%20get%20started%20with%20my%20website%20or%20digital%20business%20setup." target="_blank" rel="noopener noreferrer" class="inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-[#3E2723] px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-1 hover:shadow-xl">
-            Get Started ➔
-          </a>
-
-          <a href="https://wa.me/27818577428?text=Hi%20FemTech%20Institute%2C%20I%20would%20like%20to%20book%20a%20consultation." target="_blank" rel="noopener noreferrer" class="inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-[#3E2723]/15 bg-white/70 px-6 py-3 text-sm font-semibold text-[#3E2723] transition hover:-translate-y-1 hover:bg-white hover:shadow-lg">
-            Book a Consultation
-          </a>
+    <section id="about" class="bg-[#F4ECE4] px-5 py-20 lg:px-8">
+        <div class="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.8fr_1.2fr]">
+            <div>
+                <span class="label-badge">About</span>
+                <h2 class="text-4xl font-black tracking-[-0.04em] md:text-5xl">Digital work with business sense behind it.</h2>
+            </div>
+            <div class="space-y-6 text-lg leading-8 text-[#3E2723]/75">
+                <p>FemTech Institute combines website development, business systems, and digital strategy so your business does not only look good online but operates with more structure, confidence, and professionalism.</p>
+                <p>The focus is simple: reliable delivery, clean communication, practical solutions, and digital assets that help clients trust you faster. No bloated jargon. No messy process. Just polished execution that respects your business stage and budget.</p>
+            </div>
         </div>
+    </section>
 
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ABOUT SECTION -->
-  <section id="about" class="bg-[#F4ECE4] px-5 py-16 scroll-mt-32 lg:px-8 lg:py-20">
-    <div class="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:gap-10">
-
-      <div>
-        <span class="label-badge">About</span>
-
-        <h2 class="mt-5 text-4xl font-black leading-[1.03] tracking-[-0.04em] md:text-5xl">
-          Digital work with business sense behind it.
-        </h2>
-      </div>
-
-      <div class="space-y-5 text-base leading-7 text-[#3E2723]/75 sm:text-lg sm:leading-8">
-        <p>
-          FemTech Institute combines website development, business systems, and digital strategy so your business does not only look good online but operates with more structure, confidence, and professionalism.
-        </p>
-
-        <p>
-          The focus is simple: reliable delivery, clean communication, practical solutions, and digital assets that help clients trust you faster.
-        </p>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- SERVICES SECTION -->
-  <section id="services" class="px-5 py-16 scroll-mt-32 lg:px-8 lg:py-20">
-    <div class="mx-auto max-w-7xl">
-
-      <div class="mb-10 max-w-3xl">
-        <span class="label-badge">Services</span>
-
-        <h2 class="mt-5 text-4xl font-black leading-[1.03] tracking-[-0.04em] md:text-6xl">
-          Everything your business needs to look structured and ready.
-        </h2>
-      </div>
-
-      <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-
-        <article class="service-card">
-          <h3 class="text-2xl font-black md:text-xl">Website Development</h3>
-          <p class="mt-3 text-base leading-7 text-[#3E2723]/65">
-            Responsive websites built to help your business look credible, load cleanly, and convert visitors into enquiries.
-          </p>
-        </article>
-
-        <article class="service-card">
-          <h3 class="text-2xl font-black md:text-xl">Digital Strategy Systems</h3>
-          <p class="mt-3 text-base leading-7 text-[#3E2723]/65">
-            Simple workflows, enquiry funnels, forms, automations, and customer touchpoints that help your business run smoother.
-          </p>
-        </article>
-
-        <article class="service-card">
-          <h3 class="text-2xl font-black md:text-xl">CIPC Registration</h3>
-          <p class="mt-3 text-base leading-7 text-[#3E2723]/65">
-            Company registration assistance for entrepreneurs who want to formalise their business properly.
-          </p>
-        </article>
-
-        <article class="service-card">
-          <h3 class="text-2xl font-black md:text-xl">SARS Assistance</h3>
-          <p class="mt-3 text-base leading-7 text-[#3E2723]/65">
-            Tax-related setup and admin guidance for businesses that want to stay professionally structured.
-          </p>
-        </article>
-
-        <article class="service-card">
-          <h3 class="text-2xl font-black md:text-xl">CSD Registration</h3>
-          <p class="mt-3 text-base leading-7 text-[#3E2723]/65">
-            Supplier database registration support for businesses preparing for tender and supplier opportunities.
-          </p>
-        </article>
-
-        <article class="service-card">
-          <h3 class="text-2xl font-black md:text-xl">Branding & Digital Presence</h3>
-          <p class="mt-3 text-base leading-7 text-[#3E2723]/65">
-            Digital presence support that helps your business look polished, consistent, and trustworthy.
-          </p>
-        </article>
-
-      </div>
-
-    </div>
-  </section>
-
-  <!-- PRICING SECTION -->
-  <section id="pricing" class="px-5 py-16 scroll-mt-32 lg:px-8 lg:py-20">
-    <div class="mx-auto max-w-7xl">
-
-      <div class="mb-10 max-w-3xl">
-        <span class="label-badge">Pricing</span>
-
-        <h2 class="mt-5 text-4xl font-black leading-[1.03] tracking-[-0.04em] md:text-6xl">
-          Clear packages. No awkward guessing.
-        </h2>
-      </div>
-
-      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-4 lg:gap-8">
-
-        <div class="price-card bg-[#3E2723] text-white">
-          <h3 class="text-2xl font-black lg:text-xl">Starter Website</h3>
-
-          <p class="mt-6 text-5xl font-black leading-none lg:text-4xl">From R1 800</p>
-
-          <p class="mt-4 text-base text-white/70 lg:text-sm">
-            For startups and freelancers.
-          </p>
-
-          <ul class="mt-6 space-y-3 text-base text-white/75 lg:text-sm">
-            <li>✓ One-page website</li>
-            <li>✓ Mobile responsive</li>
-            <li>✓ WhatsApp integration</li>
-          </ul>
-
-          <a href="https://wa.me/27818577428?text=Hi%20FemTech%20Institute%2C%20I%20would%20like%20details%20about%20the%20Starter%20Website%20package." target="_blank" rel="noopener noreferrer" class="mt-7 inline-flex min-h-11 items-center rounded-full border border-white/20 px-5 py-2 text-sm font-bold">
-            View details
-          </a>
+    <section id="services" class="px-5 py-20 lg:px-8">
+        <div class="mx-auto max-w-7xl">
+            <div class="mb-12 max-w-3xl">
+                <span class="label-badge">Services</span>
+                <h2 class="text-4xl font-black tracking-[-0.04em] md:text-6xl">Everything your business needs to look structured and ready.</h2>
+            </div>
+            <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+                <article class="service-card">
+                    <h3 class="text-xl font-black">Website Development</h3>
+                    <p class="mt-3 leading-7 text-[#3E2723]/65">Responsive websites built to help your business look credible, load cleanly, and convert visitors into enquiries.</p>
+                </article>
+                <article class="service-card">
+                    <h3 class="text-xl font-black">Digital Strategy Systems</h3>
+                    <p class="mt-3 leading-7 text-[#3E2723]/65">Simple digital workflows, enquiry funnels, forms, automations, and customer touchpoints that help your business run smoother.</p>
+                </article>
+                <article class="service-card">
+                    <h3 class="text-xl font-black">CIPC Registration</h3>
+                    <p class="mt-3 leading-7 text-[#3E2723]/65">Company registration assistance for entrepreneurs who want to formalise their business properly from the start.</p>
+                </article>
+                <article class="service-card">
+                <h3 class="text-xl font-black">SARS Assistance</h3>
+                <p class="mt-3 leading-7 text-[#3E2723]/65">Tax-related setup admin guidance for businesses that want to stay profesionally structured.</p>
+            </article>
+            </div>
         </div>
+    </section>
 
-        <div class="price-card bg-[#3E2723] text-white">
-          <h3 class="text-2xl font-black lg:text-xl">Professional Website</h3>
+    <section id="pricing" class="px-5 py-20 lg:px-8">
+        <div class="mx-auto max-w-7xl">
+            <div class="mb-12 max-w-3xl">
+                <span class="label-badge">Pricing</span>
+                <h2 class="text-4xl font-black tracking-[-0.04em] md:text-6xl">Clear packages. No awkward guessing.</h2>
+            </div>
+            <div class="price-card bg-[#3E2723] text-white">
+  <h3 class="text-xl font-black">Starter Website</h3>
 
-          <p class="mt-6 text-5xl font-black leading-none lg:text-4xl">From R3 500</p>
+  <p class="mt-6 text-4xl font-black">From R1 800</p>
 
-          <p class="mt-4 text-base text-white/70 lg:text-sm">
-            For growing businesses.
-          </p>
+  <p class="mt-3 text-sm text-white/70">
+    For startups and freelancers.
+  </p>
 
-          <ul class="mt-6 space-y-3 text-base text-white/75 lg:text-sm">
-            <li>✓ Up to 4 pages</li>
-            <li>✓ Service sections</li>
-            <li>✓ Contact form</li>
-          </ul>
+  <ul class="mt-5 space-y-2 text-sm text-white/70">
+    <li>✓ One-page website</li>
+    <li>✓ Mobile responsive</li>
+    <li>✓ WhatsApp integration</li>
+  </ul>
 
-          <a href="https://wa.me/27818577428?text=Hi%20FemTech%20Institute%2C%20I%20would%20like%20details%20about%20the%20Professional%20Website%20package." target="_blank" rel="noopener noreferrer" class="mt-7 inline-flex min-h-11 items-center rounded-full border border-white/20 px-5 py-2 text-sm font-bold">
-            View details
-          </a>
+  <button class="mt-6 rounded-full border border-white/20 px-4 py-2 text-sm font-bold">
+    View details
+  </button>
+</div>
+                <div class="price-card bg-[#3E2723] text-white">
+                <h3 class="text-xl font-black">Professional Website</h3>
+
+                <p class="mt-6 text-4xl font-black">From R3 500</p>
+                
+                <p class="mt-3 text-sm text-white/70">
+                  For growing businesses.
+                </p>
+                
+                <ul class="mt-5 space-y-2 text-sm text-white/70">
+                  <li>✓ Up to 4 pages</li>
+                  <li>✓ Service sections</li>
+                  <li>✓ Contact form</li>
+                </ul>
+                
+                <button class="mt-6 rounded-full border border-white/20 px-4 py-2 text-sm font-bold">
+                  View details
+                </button>
+                </div>
+                <div class="price-card bg-white text-[#3E2723]">
+                <h3 class="text-xl font-black">Business Website</h3>
+
+                <p class="mt-6 text-4xl font-black">From R6 500</p>
+                
+                <p class="mt-3 text-sm text-[#3E2723]/70">
+                  For established brands.
+                </p>
+                
+                <ul class="mt-5 space-y-2 text-sm text-[#3E2723]/70">
+                  <li>✓ Up to 7 pages</li>
+                  <li>✓ Advanced layouts</li>
+                  <li>✓ Launch support</li>
+                </ul>
+                
+                <button class="mt-6 rounded-full border border-[#3E2723]/20 px-4 py-2 text-sm font-bold">
+                  View details
+                </button>
+                </div>
+                <div class="price-card bg-white text-[#3E2723]">
+                <h3 class="text-xl font-black">E-commerce Website</h3>
+
+                <p class="mt-6 text-4xl font-black">from R9 500</p>
+                
+                <p class="mt-3 text-sm text-[#3E2723]/70">
+                  For online stores.
+                </p>
+                
+                <ul class="mt-5 space-y-2 text-sm text-[#3E2723]/70">
+                  <li>✓ Product catalogue</li>
+                  <li>✓ Mobile shopping</li>
+                  <li>✓ Payment gateway setup</li>
+                </ul>
+                
+                <button class="mt-6 rounded-full border border-[#3E2723]/20 px-4 py-2 text-sm font-bold">
+                  View details
+                </button>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <div class="price-card bg-[#3E2723] text-white">
-          <h3 class="text-2xl font-black lg:text-xl">Business Website</h3>
-
-          <p class="mt-6 text-5xl font-black leading-none lg:text-4xl">From R6 500</p>
-
-          <p class="mt-4 text-base text-white/70 lg:text-sm">
-            For established brands.
-          </p>
-
-          <ul class="mt-6 space-y-3 text-base text-white/75 lg:text-sm">
-            <li>✓ Up to 7 pages</li>
-            <li>✓ Advanced layouts</li>
-            <li>✓ Launch support</li>
-          </ul>
-
-          <a href="https://wa.me/27818577428?text=Hi%20FemTech%20Institute%2C%20I%20would%20like%20details%20about%20the%20Business%20Website%20package." target="_blank" rel="noopener noreferrer" class="mt-7 inline-flex min-h-11 items-center rounded-full border border-white/20 px-5 py-2 text-sm font-bold">
-            View details
-          </a>
+    <section id="contact" class="bg-[#3E2723] px-5 py-20 text-white lg:px-8">
+        <div class="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.9fr_1.1fr]">
+            <div>
+                <span class="label-badge text-[#3E2723]">Contact</span>
+                <h2 class="text-4xl font-black tracking-[-0.04em] md:text-6xl">Ready to look serious?</h2>
+                <div class="mt-8 space-y-4 text-white/80">
+                    <p>💬 WhatsApp: +27 81 857 7428</p>
+                    <p>✉️ femtechwit@gmail.com</p>
+                    <p>📍 Johannesburg, South Africa</p>
+                </div>
+            </div>
+            <form class="rounded-[2rem] bg-white p-6 text-[#3E2723] md:p-8 space-y-4 shadow-xl">
+                <input class="w-full rounded-2xl border p-4 bg-[#FEFBF7]" placeholder="Your name">
+                <input class="w-full rounded-2xl border p-4 bg-[#FEFBF7]" placeholder="Your email">
+                <textarea class="w-full rounded-2xl border p-4 bg-[#FEFBF7] h-32" placeholder="Tell us what you need help with..."></textarea>
+                <button type="button" class="w-full rounded-full bg-[#3E2723] text-white py-4 font-bold tracking-wide">Send Enquiry ➔</button>
+            </form>
         </div>
-
-        <div class="price-card bg-[#3E2723] text-white">
-          <h3 class="text-2xl font-black lg:text-xl">E-commerce Website</h3>
-
-          <p class="mt-6 text-5xl font-black leading-none lg:text-4xl">From R9 500</p>
-
-          <p class="mt-4 text-base text-white/70 lg:text-sm">
-            For online stores.
-          </p>
-
-          <ul class="mt-6 space-y-3 text-base text-white/75 lg:text-sm">
-            <li>✓ Product catalogue</li>
-            <li>✓ Mobile shopping</li>
-            <li>✓ Payment gateway setup</li>
-          </ul>
-
-          <a href="https://wa.me/27818577428?text=Hi%20FemTech%20Institute%2C%20I%20would%20like%20details%20about%20the%20E-commerce%20Website%20package." target="_blank" rel="noopener noreferrer" class="mt-7 inline-flex min-h-11 items-center rounded-full border border-white/20 px-5 py-2 text-sm font-bold">
-            View details
-          </a>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-  <!-- CONTACT SECTION -->
-  <section id="contact" class="bg-[#3E2723] px-5 py-16 text-white scroll-mt-32 lg:px-8 lg:py-20">
-    <div class="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.9fr_1.1fr]">
-
-      <div>
-        <span class="label-badge text-[#3E2723]">Contact</span>
-
-        <h2 class="mt-5 text-4xl font-black leading-[1.03] tracking-[-0.04em] md:text-6xl">
-          Ready to look serious?
-        </h2>
-
-        <div class="mt-8 space-y-4 text-base text-white/80 sm:text-lg">
-          <p>💬 WhatsApp: <a href="https://wa.me/27818577428" class="underline underline-offset-4">+27 81 857 7428</a></p>
-          <p>✉️ <a href="mailto:femtechwit@gmail.com" class="underline underline-offset-4">femtechwit@gmail.com</a></p>
-          <p>📍 Johannesburg, South Africa</p>
-        </div>
-      </div>
-
-      <form class="space-y-4 rounded-[1.5rem] bg-white p-5 text-[#3E2723] shadow-xl sm:p-6 md:rounded-[2rem] md:p-8">
-
-        <input 
-          class="min-h-12 w-full rounded-2xl border border-[#3E2723]/20 bg-[#FEFBF7] p-4 text-base outline-none focus:border-[#D4A5A5]" 
-          placeholder="Your name" 
-        />
-
-        <input 
-          class="min-h-12 w-full rounded-2xl border border-[#3E2723]/20 bg-[#FEFBF7] p-4 text-base outline-none focus:border-[#D4A5A5]" 
-          placeholder="Your email" 
-        />
-
-        <textarea 
-          class="h-32 w-full rounded-2xl border border-[#3E2723]/20 bg-[#FEFBF7] p-4 text-base outline-none focus:border-[#D4A5A5]" 
-          placeholder="Tell us what you need help with..."
-        ></textarea>
-
-        <a href="https://wa.me/27818577428?text=Hi%20FemTech%20Institute%2C%20I%20would%20like%20to%20send%20an%20enquiry." target="_blank" rel="noopener noreferrer" class="block min-h-12 w-full rounded-full bg-[#3E2723] py-4 text-center font-bold tracking-wide text-white">
-          Send Enquiry ➔
-        </a>
-
-      </form>
-
-    </div>
-  </section>
+    </section>
 
 </body>
 </html>
